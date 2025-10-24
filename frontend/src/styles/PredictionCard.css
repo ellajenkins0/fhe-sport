@@ -1,0 +1,202 @@
+.prediction-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.prediction-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.prediction-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.status-badge {
+  align-self: flex-start;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-active {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-closed {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.prediction-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.team-label {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.prediction-actions {
+  display: grid;
+  gap: 1rem;
+}
+
+.choice-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.choice-button {
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  background-color: #f9fafb;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.choice-button.selected {
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
+}
+
+.choice-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.secondary-button,
+.danger-button,
+.outline-button {
+  border-radius: 0.75rem;
+  font-weight: 600;
+  padding: 0.6rem 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.secondary-button {
+  background: linear-gradient(90deg, #2563eb, #312e81);
+  color: #ffffff;
+}
+
+.secondary-button:not(:disabled):hover,
+.danger-button:not(:disabled):hover,
+.outline-button:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+}
+
+.danger-button {
+  background: linear-gradient(90deg, #f97316, #dc2626);
+  color: #ffffff;
+}
+
+.outline-button {
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+.secondary-button:disabled,
+.danger-button:disabled,
+.outline-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.info-text {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.results-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  margin-top: 0.5rem;
+}
+
+.result-card {
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.result-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.35rem;
+}
+
+.result-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.error-banner {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-size: 0.9rem;
+}
+
+.success-banner {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background-color: #ecfdf5;
+  color: #047857;
+  font-size: 0.9rem;
+}
+
+.prediction-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.prediction-footer strong {
+  color: #111827;
+}
