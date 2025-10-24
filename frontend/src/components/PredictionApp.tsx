@@ -8,6 +8,7 @@ import { useEthersSigner } from '../hooks/useEthersSigner';
 import { useZamaInstance } from '../hooks/useZamaInstance';
 import { PredictionCard, type Prediction } from './PredictionCard';
 import '../styles/PredictionApp.css';
+import { Header } from './Header';
 
 type FormState = {
   title: string;
@@ -140,6 +141,7 @@ export function PredictionApp() {
 
   return (
     <div className="prediction-app">
+      <Header/>
       <div className="prediction-layout">
         <section className="form-card">
           <div className="form-header">
