@@ -1,4 +1,4 @@
-# Zama Sports Prediction Platform
+# FHE Sports Prediction Platform
 
 A decentralized sports prediction and voting platform powered by Zama's Fully Homomorphic Encryption (FHE) technology. This application enables users to create sports predictions and submit votes that remain completely private and encrypted on the blockchain until the prediction is closed, ensuring fairness and preventing manipulation.
 
@@ -30,7 +30,7 @@ A decentralized sports prediction and voting platform powered by Zama's Fully Ho
 
 ## Overview
 
-Zama Sports Prediction is a cutting-edge decentralized application (dApp) that revolutionizes sports predictions by leveraging Fully Homomorphic Encryption (FHE). Unlike traditional prediction platforms where votes are public or can be manipulated, our platform ensures that all votes remain encrypted on the blockchain throughout the voting period. This creates a fair, transparent, and tamper-proof environment for sports predictions.
+FHE Sports Prediction is a cutting-edge decentralized application (dApp) that revolutionizes sports predictions by leveraging Fully Homomorphic Encryption (FHE). Unlike traditional prediction platforms where votes are public or can be manipulated, our platform ensures that all votes remain encrypted on the blockchain throughout the voting period. This creates a fair, transparent, and tamper-proof environment for sports predictions.
 
 The platform consists of two main components:
 1. **Smart Contract**: A Solidity-based contract deployed on Ethereum (Sepolia testnet) that handles prediction creation, encrypted vote submission, and vote tallying

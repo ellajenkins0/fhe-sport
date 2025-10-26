@@ -8,7 +8,7 @@ export function Header() {
         <div className="header-content">
           <div className="header-left">
             <h1 className="header-title">
-              Zama Sports Predictions
+              FHE Sports Predictions
             </h1>
             <span className="header-badge">Encrypted voting</span>
           </div>
